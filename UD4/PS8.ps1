@@ -1,0 +1,1 @@
+﻿Rename-Item C:\DOS\folla1.sol -NewName "folla.dat"

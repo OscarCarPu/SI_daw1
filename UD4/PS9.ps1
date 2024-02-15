@@ -1,0 +1,1 @@
+﻿Copy-Item C:\SISTEMAS -Recurse -Destination C:\CopySist

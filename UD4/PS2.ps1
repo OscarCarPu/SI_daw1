@@ -1,0 +1,1 @@
+﻿Get-ChildItem C:\Windows\System32 -Filter w* 

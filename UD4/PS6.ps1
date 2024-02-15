@@ -1,0 +1,1 @@
+﻿copy-item C:\EXERCICIOS\* C:\practica2
