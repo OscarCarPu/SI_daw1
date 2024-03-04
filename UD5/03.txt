@@ -1,0 +1,51 @@
+1.- ¿Cómo indicaría que en la IP 128.121.X.Y se utilizan dos bytes para identificar a la subred?
+Indicando que tiene máscara 255.255.0.0, indicandolo en la IP como 128.121.X.Y/16
+
+2.- Si en una subred se usan 6 bits para el ID-net, ¿Cuál es la máscara de subred?, expresada en formato decimal con puntos y en base hexadecimal.
+252.0.0.0 o FC000000
+
+3.- Si tenemos un esquema de subredes con máscara de subred de 25 bits. ¿Cuál será su máscara de subred, en formato decimal con puntos?
+255.255.255.128
+¿cuántas subredes podemos configurar con esa máscara?
+2^25-2
+¿cuántos nodos podrán existir en cada una de las subredes?
+2^7-2
+Para aquel subconjunto de subredes que tuvieran a cero (0) el bit de menor peso del ID-net, cuál sería el byte de la derecha, en el formato decimal con puntos, de la dirección de boradcast de subred.
+X.Y.Z.127/16
+
+4.-Sea la dirección 182.5.10.4/16. ¿A cuál de las antiguas clases pertenece?
+B
+¿a qué subred corresponde?
+182.5.0.0
+¿cuál es su máscara de subred, en formato decimal con puntos?
+255.255.0.0
+¿a que nodo corresponde?
+10.4
+¿cuál será la dirección de broadcast de subred?
+128.5.255.255
+
+5.- Sea la dirección 64.8.10.4/8 ¿A cuál de las antiguas clases pertenece?,
+A
+¿a qué subred corresponde?,
+64.0.0.0/8
+¿cual es su máscara de subred, en formato decimal con puntos?,
+255.0.0.0
+¿a qué nodo corresponde?,
+8.10.4
+¿cuál será la dirección de broadcast de subred?
+64.255.255.255/8
+
+6.- Sea la dirección 192.7.8.42/27, ¿A cuál de las antiguas clases podría asimilarse?, 
+Ninguna
+¿a qué subred corresponde?, 
+192.7.8.32
+¿a qué nodo de la subred identifica?, 
+10
+¿cuántos nodos puede haber en esa subred?, 
+2^5-2
+¿cuál es su máscara de subred en formato decimal con puntos?, 
+0.63
+¿cuál será la dirección de broadcast de esa subred? 
+192.7.8.0
+¿Es una subred privada?
+si
