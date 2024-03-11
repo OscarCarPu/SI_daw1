@@ -49,3 +49,30 @@ Ninguna
 192.7.8.0
 ¿Es una subred privada?
 si
+
+7- Sabiendo que a la IP binaria 11100110 10100011 10101000 00110111, le corresponde una máscara FFF00000 hexadecimal. Expresar, en formato decimal con puntos, el identificador de la subred y la IP correspondiente a la dirección de broadcast de la misma.
+
+8.- En una subred se utilizan 14 bits para el ID-net, ¿cuál sería la máscara de la subred en notación decimal con puntos?
+255.252.0.0
+¿cuántos nodos podrían exisitr en esa subred?
+2^18-2
+
+9.- Sea la dirección 194.6.5.129/26 ¿Es una dirección de subred, de nodo o de broadcast de subred?
+nodo
+
+10.- Sea la dirección 192.168.3.128/26 ¿Es una dirección de subred, de nodo o de boradcast de subred?
+rede
+
+11.- Sea la dirección 172.27.255.255/13, ¿Es una dirección de subred, de nodo o de broadcast de subred?
+nodo
+
+12.- Con una máscara de subred 255.255.255.240 ¿Cuál es el número máximo de nodos en cada subred?
+2^4-2
+
+13.- Cuál es el rango de las direcciones IP que pertenecen a la subred correspondiente a la dirección IP 140.220.15.165 con máscara 255.255.255.240
+140.220.15.161 - 140.220.15.174
+
+14 .- En una empresa necesitan manejar 13 subredes públicas diferentes, ¿cuántos bits a uno (1) necesitará, como m´inimo, la máscara de usbred?
+4
+
+
