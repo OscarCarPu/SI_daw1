@@ -44,9 +44,9 @@ Ninguna
 ¿cuántos nodos puede haber en esa subred?, 
 2^5-2
 ¿cuál es su máscara de subred en formato decimal con puntos?, 
-0.63
+255.255.255.224
 ¿cuál será la dirección de broadcast de esa subred? 
-192.7.8.0
+192.7.8.63
 ¿Es una subred privada?
 si
 
