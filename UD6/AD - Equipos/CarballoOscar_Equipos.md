@@ -18,11 +18,9 @@
 
 ## Fai reservas de mac
 
-![Reserva1]
+![Reservas](./img/reservas.png)
 
 ![Concesion1]
-
-![Reserva2]
 
 ![Concesion2]
 
