@@ -2,9 +2,9 @@
 
 ## Configuramos la nueva clonación
 
-[0.1](./img/0.1.png)
+![0.1](./img/0.1.png)
 
-[0.2](./img/0.2.png)
+![0.2](./img/0.2.png)
 
 ## Comprobamos los cambios
 
@@ -20,10 +20,16 @@
 
 ![3.1](./img/3.1.png)
 
-![3.2](./img/3.2.pngr)
+![3.2](./img/3.2.png)
+
+![3.3](./img/3.3.png)
 
 ## Configuramos DHCP para que funcione fronte a caídas.
 
-## Creamos un nuevos usuario en DC2 con replicant
+Cambiamos el dns de SCDC-01
 
-## Apagamos DC1 y comprobamos que los usuarios funcionan bien
+![4.1](./img/4.1.png)
+
+## Apagamos DC1 y comprobamos que los usuarios funcionan bienç
+
+![5.1](./img/5.1.png)
