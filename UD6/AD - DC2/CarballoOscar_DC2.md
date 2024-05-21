@@ -20,7 +20,7 @@
 
 ![3.1](./img/3.1.png)
 
-![3.2](./img/3.2.png)
+![3.2](./img/3.2.pngr)
 
 ## Configuramos DHCP para que funcione fronte a caídas.
 
