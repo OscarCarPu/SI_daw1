@@ -1,0 +1,21 @@
+version: '3'
+services:
+  dhcp_server:
+    image: debian:latest
+    command: /bin/bash -c "apt-get update && apt-get install -y isc-dhcp-server && /usr/sbin/dhcpd -f -d --no-pid -cf /etc/dhcp/dhcpd.conf && tail -f /dev/null"
+    volumes:
+      - ./dhcpd.conf:/etc/dhcp/dhcpd.conf
+    networks:
+      - vpcbr
+    cap_add:
+      - NET_ADMIN
+
+  dhcp_client:
+    image: debian:latest
+    command: /bin/bash -c "apt-get update && apt-get install -y dhcping && tail -f /dev/null"
+    networks:
+      - vpcbr
+
+networks:
+  vpcbr:
+    driver: bridge
